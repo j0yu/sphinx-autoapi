@@ -3,6 +3,24 @@ Changelog
 
 Versions follow `Semantic Versioning <https://semver.org/>`_ (``<major>.<minor>.<patch>``).
 
+
+V1.7.0+j0yu.1.0.0 (2021-02-16)
+------------------------------
+
+Trivial/Internal Changes
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+* New example implementation of ``autoapi-skip-member`` Sphinx event.
+* Fixed ``DeprecationWarning`` for invalid escape sequence ``\s`` in tests.
+* Fixed ``FutureWarning`` for ``Node.traverse()`` becoming an iterator instead of list.
+
+Features
+^^^^^^^^
+
+* `#267 <https://github.com/readthedocs/sphinx-autoapi/issues/267>`
+  Expandable value for multi-line string attibutes.
+
+
 V1.7.0 (2021-01-31)
 -------------------
 
